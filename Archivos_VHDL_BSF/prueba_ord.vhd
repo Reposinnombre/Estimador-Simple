@@ -1,7 +1,6 @@
 library ieee;
 	use ieee.std_logic_1164.all;
 	use ieee.numeric_std.all;
---	use work.array_type.all;
 	
 entity prueba_ord is
 
@@ -11,10 +10,8 @@ generic(
 );
 
 port(	 clk,rst,hab : in  std_logic;
-			  dato_in : in  std_logic_vector(Nbits - 1 downto 0);
-			 --in_array : in  bubble;
-		--sorted_array : out bubble;
-					  Q : out std_logic_vector(Nbits - 1 downto 0)
+	     dato_in : in  std_logic_vector(Nbits - 1 downto 0);
+		   Q : out std_logic_vector(Nbits - 1 downto 0)
 		);
 
 end entity prueba_ord;
@@ -36,10 +33,10 @@ architecture uno of prueba_ord is
 begin
 
 	process(all)
-		variable 	aux : std_logic_vector(Nbits - 1 downto 0);
+		variable    aux : std_logic_vector(Nbits - 1 downto 0);
 		variable var_in : bubble;
 		variable      n : std_logic;
-		variable flag : std_logic := '0';
+		variable   flag : std_logic := '0';
 	begin
 		var_in := sorted_array;
 		if rst = '0' then
