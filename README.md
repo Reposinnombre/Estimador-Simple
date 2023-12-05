@@ -1,8 +1,8 @@
 # Estimador-Simple
 ##### En este repositorio se presenta la implementación en Hardware y en Software de un Estimador de Ruido de Middleton Clase A. 
-#### DIRECTORIO Software:  
+#### - DIRECTORIO Software:  
 Dentro de este directorio se puede encontrar el archivo del Estimador Simple utilizando las medianas realizado en lenguaje PYTHON.
-#### DIRECTORIO Archivos_VHDL_BSF:  
+#### - DIRECTORIO Archivos_VHDL_BSF:  
 En este directorio se incluyen el proyecto en lenguaje VHDL y el archivo .MIF necesario para cargar la memoria RAM con los datos de entrada a simular.  
 
 En la figura de mas abajo se detalla el esquema general de la arquitectura implementada en Hardware.
