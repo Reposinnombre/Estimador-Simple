@@ -1,5 +1,5 @@
 # Estimador-Simple
-En este repositorio se presenta  la implementación en Hardware de un Estimador de Ruido de Middleton Clase A. Se detalla el esquema general y se incluye el proyecto VHDL.
+En este repositorio se presenta la implementación en Hardware y Software de un Estimador de Ruido de Middleton Clase A. Dentro del directorio Software se puede encontrar el archivo PYTHON del estimador simple utilizando las medianas. Se detalla el esquema general de la arquitectura implementada en Hardware y se incluye el proyecto en lenguaje VHDL.
 Esta implementación está basada en el trabajo titulado "Estimador de ruido de Middleton clase A: implementación sobre FPGA", cuya referencia puede encontrar a continuación.
 
 REFERENCIA:
